@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="names">
+            <item>Handbags</item>
+            <item>Clothes</item>
+            <item>Underwear</item>
+            <item>Pajamas</item>
+            <item>Slippers</item>
+            <item>Highheels</item>
+            <item>Excercisebooks</item>
+            <item>Fish</item>
+            <item>Meat</item>
+            <item>Socks</item>
+            <item>Fruits</item>
+            <item>Powder</item>
+        </string-array>
+
+        <string-array name="descriptions">
+            <item>The beautiful, lovable Handbags is Nigeria’s most popular handbags. They are
+                beautiful, fine, and coloured hanbags.</item>
+            <item>An immensely beautiful, long thick type, the Cloth is a silky , fine texture and brown but a little transparent
+                sewed tailored fabric</item>
+            <item>The Husky, a thickly coated, patted pants of medium size and great
+                endurance, was designed to wear any time.</item>
+            <item>The tiny transparent, my favorite pajamas, beautifully sewed in royal blue, red, pink colors of different manufacturer of my choosing
+            </item>
+            <item>The streamlined Slippers, an American original, is green, stripped and
+                suitable to use at home but slippery in the bathroom. Activities like washing toilet with it is bad
+                </item>
+            <item>The HighHeels is a pick toes beautifully made with other coloured heels, shoes and so many other
+                materials used in making shoes different colors, type, grade.</item>
+            <item>The Exercise books can be gotten in the bookshps with other novels, i love reading novels especially</item>
+            <item>The fish can be gotten from the river, then sold to people in the market, various types of fishes. i can by Tilapia, crocked, cat fish
+            and any other recommended fish of different species</item>
+            <item>The Meat can be gotten from the market where cow, goat or ram meat is sold, softly eaten at anytime of the day</item>
+            <item>The socks can be for small kids or adults</item>
+            <item>The fruits is so sweet. Oranges, watermelon, apple, carrot are the best. I love eating fruits.</item>
+            <item>Powder to pancake my face. its a cosmetics used by woman </item>
+        </string-array>
+
+        <string-array name="price">
+            <item>N4000</item>
+            <item>N5000</item>
+            <item>N1000</item>
+            <item>N500</item>
+            <item>N500</item>
+            <item>N3000</item>
+            <item>N1000</item>
+            <item>N2000</item>
+            <item>N4000</item>
+            <item>N500</item>
+            <item>N1000</item>
+            <item>N200</item>
+        </string-array>
+
+    </resources>

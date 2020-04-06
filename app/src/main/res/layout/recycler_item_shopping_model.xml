@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <data>
+
+    <variable
+      name="shoppingModel"
+      type="com.toyyibat.shoppinglist.ShoppingModel" />
+  </data>
+
+  <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/recycler_layout_spacing">
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="left"
+            android:minHeight="@dimen/recycler_item_footer_height_min"
+            android:paddingTop="@dimen/recycler_item_footer_padding"
+            android:paddingBottom="@dimen/recycler_item_footer_padding"
+            android:textSize="@dimen/shopping_list_text_siz"
+            tools:text="@{shoppingModel.name}"
+            />
+
+    <TextView
+            android:id="@+id/price"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="right"
+            android:textSize="@dimen/shopping_list_text_siz"
+            android:minHeight="@dimen/recycler_item_footer_height_min"
+            android:paddingTop="@dimen/recycler_item_footer_padding"
+            android:paddingBottom="@dimen/recycler_item_footer_padding"
+            tools:text="@{shoppingModel.price}"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+  </RelativeLayout>
+</layout>
